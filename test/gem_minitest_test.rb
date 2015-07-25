@@ -16,5 +16,8 @@ class GemMinitesttest < Minitest::Test
     assert @main.odd?(1), '1 is odd'
     refute @main.odd?(2), '2 is not odd'
     assert @main.odd?(3), '3 is odd'
+    assert @main.odd?(101), '101 is odd'
+    refute @main.odd?(222), '222 is not odd'
+    assert @main.odd?(333), '333 is odd'
   end
 end
