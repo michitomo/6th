@@ -1,5 +1,13 @@
 require "gem_minitest/version"
 
 module GemMinitest
-  # Your code goes here...
+  class Main
+    def odd?(n)
+      if n == 1 || n == 3
+        return true
+      else
+        return false
+      end
+    end
+  end
 end
